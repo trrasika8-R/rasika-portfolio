@@ -1,0 +1,112 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "site"
+    label: "Portfolio Content"
+    files:
+      - name: "site"
+        label: "Site Content"
+        file: "content/site.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Subtext", name: "subtext", widget: "text" }
+
+          - label: "Code Block"
+            name: "codeBlock"
+            widget: "object"
+            fields:
+              - { label: "Filename label", name: "filename", widget: "string" }
+              - { label: "Degree", name: "degree", widget: "string" }
+              - { label: "College", name: "college", widget: "string" }
+              - { label: "Languages", name: "languages", widget: "list" }
+              - { label: "Goal", name: "goal", widget: "string" }
+              - { label: "Status", name: "status", widget: "string" }
+
+          - label: "About"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Paragraph 1", name: "paragraph1", widget: "text" }
+              - { label: "Paragraph 2", name: "paragraph2", widget: "text" }
+              - { label: "Paragraph 3", name: "paragraph3", widget: "text" }
+              - label: "Stats"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Value", name: "value", widget: "string" }
+
+          - label: "Skills"
+            name: "skills"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Level (%)", name: "level", widget: "number", default: 50 }
+              - { label: "Note", name: "note", widget: "string" }
+              - { label: "Custom label (e.g. 'Learning', 'Certified') — leave blank to show %", name: "customLevel", widget: "string", required: false }
+
+          - label: "Tools & Profiles"
+            name: "tools"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Level (%)", name: "level", widget: "number", default: 90 }
+              - { label: "URL", name: "url", widget: "string" }
+              - { label: "Handle text", name: "handle", widget: "string" }
+
+          - label: "Problem Solving"
+            name: "problemSolving"
+            widget: "object"
+            fields:
+              - { label: "Level (%)", name: "level", widget: "number", default: 90 }
+              - { label: "Note", name: "note", widget: "string" }
+
+          - label: "Education"
+            name: "education"
+            widget: "list"
+            fields:
+              - { label: "Year", name: "year", widget: "string" }
+              - { label: "School", name: "school", widget: "string" }
+              - { label: "Detail", name: "detail", widget: "text" }
+              - { label: "Bullet points", name: "points", widget: "list", required: false }
+
+          - label: "Certifications"
+            name: "certifications"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Issuer / Date", name: "issuer", widget: "string" }
+              - { label: "Certificate image", name: "image", widget: "image", required: false }
+
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Tag (e.g. Python)", name: "tag", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "URL", name: "url", widget: "string", required: false }
+
+          - { label: "Projects footer note", name: "projectsNote", widget: "text" }
+
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Intro line", name: "intro", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Phone", name: "phone", widget: "string" }
+              - { label: "GitHub URL", name: "github", widget: "string" }
+              - { label: "LinkedIn URL", name: "linkedin", widget: "string" }
+
+          - { label: "Footer text", name: "footer", widget: "string" }
