@@ -1,0 +1,73 @@
+{
+  "hero": {
+    "tagline": "CURRENTLY COMPILING · 2nd Year CSE",
+    "heading": "Hi, I'm Rasika — building my way into software development.",
+    "subtext": "CSE student at Kamaraj College of Engineering and Technology, learning Python, Java and C, and working toward becoming a skilled software professional."
+  },
+  "codeBlock": {
+    "filename": "profile.py",
+    "degree": "B.E Computer Science, 2nd Year",
+    "college": "Kamaraj College of Engineering & Technology",
+    "languages": ["Python", "Java", "C"],
+    "goal": "Skilled software developer",
+    "status": "learning, building, shipping soon"
+  },
+  "about": {
+    "paragraph1": "I'm a **2nd year Computer Science & Engineering** student at **Kamaraj College of Engineering and Technology**. Before this, I studied at **E.V.R.N Girls Corporation Girls Higher Secondary School, Madurai**, where my interest in computers and problem-solving first took shape.",
+    "paragraph2": "My ambition is to become a **software developer** — right now that means putting in consistent hours with Python, Java, and C, understanding how things work under the hood, and slowly turning that knowledge into real, working projects.",
+    "paragraph3": "My long-term goal is to grow into a **skilled, dependable professional** in my field — someone who writes clean code, keeps learning, and can be trusted with real problems.",
+    "stats": [
+      { "label": "Currently studying", "value": "Computer Science & Engineering" },
+      { "label": "Year", "value": "2nd Year, B.E CSE" },
+      { "label": "Aiming for", "value": "Software Developer role" }
+    ]
+  },
+  "skills": [
+    { "name": "Python", "level": 90, "note": "Core syntax, problem-solving, and building small scripts." },
+    { "name": "Java", "level": 90, "note": "OOP concepts and coursework-driven programs." },
+    { "name": "C", "level": 0, "note": "Fundamentals — memory, pointers, and logic building.", "customLevel": "Learning" },
+    { "name": "Next.js", "level": 80, "note": "Building React-based web apps with server-side rendering." },
+    { "name": "Node.js", "level": 85, "note": "Backend fundamentals and building server-side logic." },
+    { "name": "UI/UX Design", "level": 0, "note": "Completed a 30-day MasterClass covering design fundamentals and principles.", "customLevel": "Certified" }
+  ],
+  "tools": [
+    { "name": "GitHub", "level": 95, "url": "https://github.com/trrasika8-R", "handle": "github.com/trrasika8-R" },
+    { "name": "LinkedIn", "level": 96, "url": "https://www.linkedin.com/in/rasika-t-r-468409383", "handle": "linkedin.com/in/rasika-t-r" }
+  ],
+  "problemSolving": { "level": 90, "note": "Logical thinking and structured approach to coding challenges." },
+  "education": [
+    {
+      "year": "2025",
+      "school": "E.V.R.N Girls Corporation Girls Higher Secondary School",
+      "detail": "Madurai — Completed 12th grade and built the foundation for a career in computer science.",
+      "points": []
+    },
+    {
+      "year": "2025 – Present",
+      "school": "Kamaraj College of Engineering and Technology",
+      "detail": "Virudhunagar, Madurai — 2nd Year, B.E Computer Science & Engineering, specializing in Software Development and Artificial Intelligence.",
+      "points": [
+        "Building strong fundamentals across Python, Java, C, and modern web tools like Next.js and Node.js.",
+        "Completed 4 industry certifications, including an AI Bootcamp and MongoDB Basics for Students."
+      ]
+    }
+  ],
+  "certifications": [
+    { "title": "Python Concurrent Programming: Multiprocessing in Python", "issuer": "Infosys Springboard · June 2026", "image": "" },
+    { "title": "AI Bootcamp — Certificate of Participation", "issuer": "IntelliPaat · June 2026", "image": "" },
+    { "title": "MongoDB Basics for Students", "issuer": "MongoDB · August 2026", "image": "" },
+    { "title": "UI/UX Design — 30 Days MasterClass", "issuer": "NoviTech R&D Pvt. Ltd. · Jun–Jul 2026", "image": "" }
+  ],
+  "projects": [
+    { "title": "Simple Calculator", "tag": "Python", "description": "A beginner console-based calculator handling basic arithmetic operations — my first step from syntax to a working tool.", "url": "https://github.com/trrasika8-R" }
+  ],
+  "projectsNote": "Next up: a Java-based mini project and a C program to strengthen fundamentals. This spot updates as I ship.",
+  "contact": {
+    "intro": "Open to internships, guidance, and opportunities to learn.",
+    "email": "trrasika8@gmail.com",
+    "phone": "+91 90434 89591",
+    "github": "https://github.com/trrasika8-R",
+    "linkedin": "https://www.linkedin.com/in/rasika-t-r-468409383"
+  },
+  "footer": "© 2026 Rasika · built while learning to build"
+}
